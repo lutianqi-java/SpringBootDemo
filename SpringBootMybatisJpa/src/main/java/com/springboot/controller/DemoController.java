@@ -42,9 +42,9 @@ public class DemoController {
     @Transactional
     public String createOrder(String orderName,String money) {
         log.info("牛逼");
-        userService.insert("1",10);
-        System.out.println(1/0);
-        orderService.insert("11","100");
+//        userService.insert("1",10);
+////        System.out.println(1/0);
+//        orderService.insert("11","100");
         return "插入成功";
     }
 }
